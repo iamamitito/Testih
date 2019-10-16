@@ -13,3 +13,92 @@
  *= require_tree .
  *= require_self
  */
+.nav-icon {
+    color: rgb(226, 76, 126);
+}
+.navbar_color {
+    background-color: #111;
+    opacity: 0.99;
+}
+
+.button-login {
+    background-color: rgb(182, 61, 101);
+}
+.button-signup {
+    background-color: rgb(83, 102, 204);
+}
+
+.nav_button {
+    color: rgb(241, 241, 241);
+}
+
+.all_buttons {
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu p, h2 {
+    text-align: center;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    opacity: 0.99;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #d6d6d6;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar_link {
+    font-size: 20px !important;
+}
+
+.sidebar a:hover {
+    color: rgb(182, 61, 101);
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    outline: none !important;
+    font-size: 40px;
+    cursor: pointer;
+    background-color: Transparent;
+    color: rgb(22, 22, 22);
+    border: none;
+    border-radius: 40%;
+    padding: 0%;
+    margin: 0%;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
