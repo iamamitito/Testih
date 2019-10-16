@@ -1,0 +1,5 @@
+<tr id="test_<%= @test.id %>">
+    <td><%= test.date.to_time.strftime('%Y, %B %e') %></td>
+    <td><%= link_to 'Editar', edit_test_path(test), data: {remote: true}, class:"btn btn-sm" %></td>
+    <td><%= link_to 'Eliminar', test, method: :delete, data: { confirm: 'Are you sure?', remote: true }, class:"btn btn-sm" %></td>
+</tr>

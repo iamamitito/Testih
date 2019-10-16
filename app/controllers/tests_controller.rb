@@ -5,6 +5,7 @@ class TestsController < ApplicationController
   # GET /tests.json
   def index
     @tests = current_user.tests
+    @test = Test.new
   end
 
   # GET /tests/1
@@ -31,9 +32,11 @@ class TestsController < ApplicationController
       if @test.save
         format.html { redirect_to @test, notice: 'Test was successfully created.' }
         format.json { render :show, status: :created, location: @test }
+        format.js
       else
         format.html { render :new }
         format.json { render json: @test.errors, status: :unprocessable_entity }
+        
       end
     end
   end
@@ -59,6 +62,7 @@ class TestsController < ApplicationController
     respond_to do |format|
       format.html { redirect_to tests_url, notice: 'Test was successfully destroyed.' }
       format.json { head :no_content }
+      format.js 
     end
   end
 

@@ -8,16 +8,13 @@
     </tr>
   </thead>
 
-  <tbody>
-    <% @tests.each do |test| %>
-      <tr>
-        <td><%= test.date.to_time.strftime('%Y, %B %e') %></td>
-        <td><%= link_to 'Editar', edit_test_path(test), class:"btn btn-sm" %></td>
-        <td><%= link_to 'Eliminar', test, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-sm" %></td>
-      </tr>
-    <% end %>
+  <tbody>      
+      <%= render @tests %>
   </tbody>
 </table>
+
+  <%= render 'form', test: @test %>
+
 <br>
 <%= link_to '| New Test |', new_test_path, class:"btn btn-white" %> <br><br>
 <p><%= link_to '| Home |', root_path, class:"btn btn-white" %> </p>
