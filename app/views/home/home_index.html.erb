@@ -1,2 +1,24 @@
-<h1>Home#home_index</h1>
-<p>Find me in app/views/home/home_index.html.erb</p>
+<div class="row menu container">
+    <div class="col-sm-6 mb-3">
+      <div class="card my-tests">
+           <a href="<%= tests_path %>" class="btn btn-fix text-left">
+              <div class="card-block ">
+                    <h2 class="card-title text-dark ">Mis tests</h2>
+                    <p>Aquí puedes guardar el registro de cada uno de tus tests.</p>
+                    <img class="card-img-top " src="..." alt="Card image cap">
+              </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card my-map">
+           <a href="<%= home_map_path %>" class="btn btn-fix text-left">
+                <div class="card-block ">
+                    <h2 class="card-title text-dark ">Mapa</h2>
+                    <p>En este mapa puedes ver los centros y/o instituciones que ofrecen tanto la pastilla PrEP, como tests rápidos de VIH.</p>
+                    <img class="card-img-top " src="..." alt="Card image cap">
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

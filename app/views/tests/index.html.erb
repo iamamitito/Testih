@@ -1,12 +1,9 @@
-<p id="notice"><%= notice %></p>
 
-<h1>Tests</h1>
-
-<table>
+<h1>Mis tests</h1>
+<table class="table"> 
   <thead>
     <tr>
-      <th>Date</th>
-      <th>User</th>
+      <th>Fecha</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -14,16 +11,14 @@
   <tbody>
     <% @tests.each do |test| %>
       <tr>
-        <td><%= test.date %></td>
-        <td><%= test.user_id %></td>
-        <td><%= link_to 'Show', test %></td>
-        <td><%= link_to 'Edit', edit_test_path(test) %></td>
-        <td><%= link_to 'Destroy', test, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= test.date.to_time.strftime('%Y, %B %e') %></td>
+        <td><%= link_to 'Editar', edit_test_path(test), class:"btn btn-sm" %></td>
+        <td><%= link_to 'Eliminar', test, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-sm" %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
-
 <br>
+<%= link_to '| New Test |', new_test_path, class:"btn btn-white" %> <br><br>
+<p><%= link_to '| Home |', root_path, class:"btn btn-white" %> </p>
 
-<%= link_to 'New Test', new_test_path %>
