@@ -14,7 +14,7 @@
  *= require_self
  */
 .nav-icon {
-    color: rgb(226, 76, 126);
+    color: rgb(124, 208, 214);
 }
 .navbar_color {
     background-color: #111;
@@ -75,7 +75,7 @@ body {
 }
 
 .sidebar a:hover {
-    color: rgb(182, 61, 101);
+    color: rgb(124, 208, 214);
 }
 
 .sidebar .closebtn {
@@ -97,9 +97,13 @@ body {
     padding: 0%;
     margin: 0%;
 }
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
 
 #main {
-    transition: margin-left .5s;
+    transition: margin-left .3s;
     padding: 16px;
 }
 .welcoming p {
