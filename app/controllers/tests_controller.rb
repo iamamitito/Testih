@@ -4,7 +4,7 @@ class TestsController < ApplicationController
   # GET /tests
   # GET /tests.json
   def index
-    @tests = Test.all
+    @tests = current_user.tests
   end
 
   # GET /tests/1
@@ -25,6 +25,7 @@ class TestsController < ApplicationController
   # POST /tests.json
   def create
     @test = Test.new(test_params)
+    @test.user = current_user
 
     respond_to do |format|
       if @test.save
@@ -69,6 +70,6 @@ class TestsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def test_params
-      params.require(:test).permit(:date, :user_id)
+      params.require(:test).permit(:date)
     end
 end
