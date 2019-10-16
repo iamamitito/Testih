@@ -102,3 +102,9 @@ body {
     transition: margin-left .5s;
     padding: 16px;
 }
+.welcoming p {
+    color: rgb(88, 88, 88);
+}
+.welcoming-btn {
+    border-radius: 12px;
+}

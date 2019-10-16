@@ -1,3 +1,4 @@
+<% if user_signed_in? %>
 <div class="row menu container">
     <div class="col-sm-6 mb-3">
       <div class="card my-tests">
@@ -22,3 +23,16 @@
         </div>
     </div>
 </div>
+<% else %>
+
+<div class=" menu container welcoming">
+        <div class="col col-md-auto ">
+            <h2><i class="fas fa-street-view nav-icon fa-5x ml-5">!</i></h2>
+            <p><strong>Bienvenido a XXXX</strong></p>
+            <p>Aquí tendrás la oportunidad de registrar tus tests y encontrar centros y/o instituciones cercanos.</p>
+            <p><%= link_to 'Iniciar sesión con facebook', new_user_session_path, class:"btn btn-outline-dark welcoming-btn" %></p>
+			<p><%= link_to 'Crear una cuenta', new_user_registration_path, class:"btn btn-outline-dark welcoming-btn" %></p>
+        </div>
+
+</div>
+<% end %>
