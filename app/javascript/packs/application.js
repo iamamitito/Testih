@@ -8,6 +8,8 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 require("jquery/src/jquery")
+require("underscore/underscore")
+require("gmaps/google")
 
 
 

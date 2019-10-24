@@ -22,9 +22,11 @@ gem 'devise'
 # gem 'redis', '~> 4.0'
 gem 'omniauth-facebook'
 # Use Active Model has_secure_password
+gem 'geocoder'
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'gmaps4rails'
 # Use Active Storage variant
+gem 'underscore-rails'
 # gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
