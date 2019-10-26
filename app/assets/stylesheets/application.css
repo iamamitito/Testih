@@ -46,7 +46,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(247, 247, 247);
 }
 
 .menu p, h2 {
@@ -96,7 +96,7 @@ body {
     font-size: 40px;
     cursor: pointer;
     background-color: Transparent;
-    color: rgb(22, 22, 22);
+    color: rgb(219, 219, 219);
     border: none;
     border-radius: 40%;
     padding: 0%;
@@ -108,8 +108,7 @@ body {
   }
 
 #main {
-    transition: margin-left .3s;
-    padding: 16px;
+    transition: margin-left .2s;
 }
 .welcoming p {
     color: rgb(88, 88, 88);

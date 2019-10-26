@@ -1,14 +1,16 @@
 <% if user_signed_in? %>
-			<nav class="navbar navbar-expand-lg text-white navbar_color">  
+			<nav class="navbar navbar-expand-lg text-white navbar_color">
+				<div id="main">
+  					<button class="openbtn" onmouseover="openNav()">☰</button>
+				</div> 
   				<div class="navbar ml-auto" id="navbarColor01">
-					<ul class="navbar-nav">
-	        	<li>Hola, <%= current_user.name %>!</li>
 	        <% else %>
 			<nav class="navbar navbar-expand-lg text-white navbar_color">  
   				<div class="navbar ml-auto" id="navbarColor01">
 					<ul class="navbar-nav">
 						<li class="nav-item mr-2"><%= link_to 'Iniciar Sesión', new_user_session_path, class:"btn all_buttons nav_button" %></li>
+					</ul>
 	        <% end %>
-	</ul>
+	
 	</div>
 </nav>
