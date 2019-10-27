@@ -2,23 +2,23 @@
 <% if user_signed_in? %>
 <div class="row menu container">
     <div class="col-sm-6 mb-3">
-      <div class="card my-tests">
+      <div class="card my-tests app-body">
            <a href="<%= tests_path %>" class="btn btn-fix text-left">
               <div class="card-block ">
                     <h2 class="card-title text-dark ">Mis tests</h2>
+                    <p>Guarda el registro de cada uno de tus tests rápidos de VIH.</p>
                     <img class="card-img-top " src="https://i.imgur.com/LgzxYdz.png" alt="Card image cap">
-                    <p>Aquí puedes guardar el registro de cada uno de tus tests.</p>
               </div>
             </a>
         </div>
     </div>
     <div class="col-sm-6">
-      <div class="card my-map">
+      <div class="card my-map app-body">
            <a href="<%= centres_index_path %>" class="btn btn-fix text-left">
                 <div class="card-block ">
                     <h2 class="card-title text-dark ">Centros</h2>
+                    <p>Busca centros que ofrecen tests rápidos de VIH gratuitos.</p>
                     <img class="card-img-top" src="https://i.imgur.com/9aY6HOz.png" alt="Card image cap">
-                    <p>En este mapa puedes ver los centros y/o instituciones que ofrecen tanto la pastilla PrEP, como tests rápidos de VIH.</p>
                 </div>
             </a>
         </div>
@@ -26,7 +26,7 @@
 </div>
 <% else %>
 
-<div class=" menu container welcoming">
+<div class=" menu container welcoming pb-5 pt-5">
         <div class="col col-md-auto ">
             <h2><i class="fas fa-street-view nav-icon fa-5x ml-5">!</i></h2>
             <p><strong>Bienvenido a XXXX</strong></p>
@@ -34,7 +34,6 @@
             <p><%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path, class:"btn btn-outline-primary welcoming-btn" %></p>
 			<p><%= link_to 'Crear una cuenta', new_user_registration_path, class:"btn btn-outline-dark welcoming-btn" %></p>
         </div>
-
 </div>
 <% end %>
 </div>

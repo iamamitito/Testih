@@ -1,3 +1,4 @@
+<div class='container'>
 <%= form_with(model: test) do |form| %>
   <% if test.errors.any? %>
     <div id="error_explanation">
@@ -17,3 +18,4 @@
    <%= form.submit class: 'btn all_buttons new-test', value: "Crear nuevo test" %>
   </div>
 <% end %>
+</div>
