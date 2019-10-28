@@ -14,7 +14,7 @@
  *= require_self
  */
 .nav-icon {
-    color: rgb(124, 208, 214);
+    color: rgb(101, 190, 231);
 }
 .navbar_color {
     background-color: #111;
@@ -46,11 +46,11 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("https://i.imgur.com/nEMWLIk.png");
-    background-repeat: no-repeat;
+    background-image: url("https://i.imgur.com/ZmexS6A.jpg");
+    background-repeat: repeat;
     background-attachment: fixed;
-    background-position: bottom;
-    background-position-y: 0%;
+    background-position: center center;
+    background-size: cover;
 }
 
 .menu p, h2 {
@@ -84,7 +84,7 @@ body {
 }
 
 .sidebar a:hover {
-    color: rgb(124, 208, 214);
+    color: rgb(101, 190, 231);
 }
 
 .sidebar .closebtn {
@@ -97,7 +97,7 @@ body {
 
 .openbtn {
     outline: none !important;
-    font-size: 40px;
+    font-size: 35px;
     cursor: pointer;
     background-color: Transparent;
     color: rgb(219, 219, 219);
@@ -119,16 +119,32 @@ body {
 }
 .welcoming {
     background-color: rgb(255, 251, 251);
-    opacity: 0.9;
+    width: 65%;
+    opacity: 0.85;
 }
 .welcoming-btn {
     border-radius: 12px;
 }
 .app-body {
-    background-color: rgb(181, 233, 236);
-    opacity: 0.95;
+    background-color: rgb(255, 255, 255);
 }
 
 .app-test {
     background-color: rgb(255, 251, 251);
 }
+
+.session-box {
+    opacity: 0.85;
+}
+
+.map-content {
+    width: 100%;
+    height: 90%;
+    position: fixed;
+    background: #eee;
+    padding: 0;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+

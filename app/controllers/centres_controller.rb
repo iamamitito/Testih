@@ -10,7 +10,7 @@ class CentresController < ApplicationController
                   width: 30,
                   height: 30
                  })
-      marker.infowindow centre.name
+      marker.infowindow centre.address
     end
   end
 

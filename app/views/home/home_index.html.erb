@@ -26,11 +26,11 @@
 </div>
 <% else %>
 
-<div class=" menu container welcoming pb-5 pt-5">
+<div class=" menu container welcoming pt-3 pb-3">
         <div class="col col-md-auto ">
-            <h2><i class="fas fa-street-view nav-icon fa-5x ml-5">!</i></h2>
-            <p><strong>Bienvenido a XXXX</strong></p>
-            <p>Aquí tendrás la oportunidad de registrar tus tests y encontrar centros y/o instituciones cercanos.</p>
+            <p><i class="fas fa-street-view nav-icon fa-5x"></i></p>
+            <p><strong>Bienvenido a Testie</strong></p>
+            <p>Aquí tendrás la oportunidad de registrar tus tests y encontrar centros y/o instituciones en tu ciudad.</p>
             <p><%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path, class:"btn btn-outline-primary welcoming-btn" %></p>
 			<p><%= link_to 'Crear una cuenta', new_user_registration_path, class:"btn btn-outline-dark welcoming-btn" %></p>
         </div>
