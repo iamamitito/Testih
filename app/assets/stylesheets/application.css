@@ -13,11 +13,17 @@
  *= require_tree .
  *= require_self
  */
+ html {
+    position: relative;
+    min-height: 100%;
+}
+
+
 .nav-icon {
-    color: rgb(101, 190, 231);
+    color: rgb(86, 191, 233);
 }
 .navbar_color {
-    background-color: #111;
+    background-color: rgb(255, 255, 255);
     opacity: 0.99;
 }
 
@@ -29,11 +35,11 @@
 }
 
 .new-test {
-    background-color:rgb(124, 208, 214);
+    background-color:rgb(86, 191, 233);
 }
 
 .nav_button {
-    color: rgb(241, 241, 241);
+    color: rgb(54, 54, 54);
 }
 
 .all_buttons {
@@ -45,12 +51,13 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("https://i.imgur.com/ZmexS6A.jpg");
+    font-family: 'Tajawal', sans-serif;
+    background-image: url("https://i.imgur.com/M3Hl7L8.png");
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    margin: 0 0 100px;
 }
 
 .menu p, h2 {
@@ -64,7 +71,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: rgb(255, 255, 255);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -75,7 +82,7 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #d6d6d6;
+    color: rgb(54, 54, 54);
     display: block;
     transition: 0.3s;
 }
@@ -84,7 +91,7 @@ body {
 }
 
 .sidebar a:hover {
-    color: rgb(101, 190, 231);
+    color: rgb(86, 191, 233);
 }
 
 .sidebar .closebtn {
@@ -100,7 +107,7 @@ body {
     font-size: 35px;
     cursor: pointer;
     background-color: Transparent;
-    color: rgb(219, 219, 219);
+    color: rgb(54, 54, 54);
     border: none;
     border-radius: 40%;
     padding: 0%;
@@ -115,22 +122,17 @@ body {
     transition: margin-left .2s;
 }
 .welcoming p {
-    color: rgb(88, 88, 88);
+    color: rgb(54, 54, 54);
 }
 .welcoming {
     background-color: rgb(255, 251, 251);
     width: 65%;
     opacity: 0.85;
 }
-.welcoming-btn {
-    border-radius: 12px;
-}
+
 .app-body {
     background-color: rgb(255, 255, 255);
-}
-
-.app-test {
-    background-color: rgb(255, 251, 251);
+    border: none;
 }
 
 .session-box {
@@ -143,8 +145,27 @@ body {
     position: fixed;
     background: #eee;
     padding: 0;
-    transition-property: all;
-    transition-duration: 0.3s;
 }
 
+.myhome {
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    background-size: 100%;
+    height: 100%;
+    padding-top: 1%;
+    padding-bottom: 13%;
+}
 
+footer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(54, 54, 54);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 220px;
+    width: 100%;
+    overflow: hidden;
+}
+.home-icons:hover{
+    color: rgb(86, 191, 233);
+}

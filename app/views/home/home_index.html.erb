@@ -1,32 +1,40 @@
-<div class='container mt-5'>
 <% if user_signed_in? %>
-<div class="row menu container">
-    <div class="col-sm-6 mb-3">
-      <div class="card my-tests app-body">
-           <a href="<%= tests_path %>" class="btn btn-fix text-left">
-              <div class="card-block ">
-                    <h2 class="card-title text-dark ">Mis tests</h2>
-                    <p>Guarda el registro de cada uno de tus tests rápidos de VIH.</p>
-                    <img class="card-img-top " src="https://i.imgur.com/LgzxYdz.png" alt="Card image cap">
-              </div>
-            </a>
-        </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card my-map app-body">
-           <a href="<%= centres_index_path %>" class="btn btn-fix text-left">
-                <div class="card-block ">
-                    <h2 class="card-title text-dark ">Centros</h2>
-                    <p>Busca centros que ofrecen tests rápidos de VIH gratuitos.</p>
-                    <img class="card-img-top" src="https://i.imgur.com/9aY6HOz.png" alt="Card image cap">
+<div class="myhome">
+<br>
+    <div class='container'>
+        <div class="row menu container mt-5">
+            <div class="col-sm-6 mb-3">
+            <div class="card app-body">
+                <a href="<%= tests_path %>" class="btn btn-fix text-left">
+                    <div class="card-block ">
+                            <h2 class="card-title text-dark ">Mis tests</h2>
+                            <p><i class="fas fa-archive fa-7x home-icons"></i></p>
+                            <p>Guarda el registro de cada uno de tus tests rápidos de VIH.</p>
+                            
+                    </div>
+                    </a>
                 </div>
-            </a>
+            </div>
+            <div class="col-sm-6">
+            <div class="card app-body">
+                <a href="<%= centres_index_path %>" class="btn btn-fix text-left">
+                        <div class="card-block ">
+                            <h2 class="card-title text-dark ">Centros</h2>
+                            <p><i class="fas fa-hospital-alt fa-7x home-icons"></i></p>
+                            <p>Busca centros que ofrecen PrEP y tests rápidos de VIH gratuitos.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+<br>
+<br>
+<br>
 <% else %>
 
-<div class=" menu container welcoming pt-3 pb-3">
+<div class=" menu container welcoming mt-5 pt-3 pb-3">
         <div class="col col-md-auto ">
             <p><i class="fas fa-street-view nav-icon fa-5x"></i></p>
             <p><strong>Bienvenido a Testie</strong></p>
@@ -36,4 +44,4 @@
         </div>
 </div>
 <% end %>
-</div>
+

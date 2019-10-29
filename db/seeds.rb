@@ -857,4 +857,369 @@ Centre.create(
     name: 'Centro de Salud Familiar Karol Wojtyla',
     address: 'Curaco de Vélez 4110, Puente Alto, Región Metropolitana')
     
+Centre.create(
+    name: 'Centro de Salud Familiar Poetisa Gabriela Mistral',
+    address: 'Aurora de Chile 9872, San Ramón, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro de Salud Familiar San Alberto Hurtado',
+    address: 'San Carlos 1693, Puente Alto, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro de Salud Familiar Trinidad',
+    address: 'Uno 10021, La Florida, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro de Salud Familiar La Florida',
+    address: 'La Florida 6015, La Florida, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro de Salud Familiar Laurita Vicuña',
+    address: 'Ejército Libertador 2433, Puente Alto, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro de Salud Rural El Principal',
+    address: 'La Alameda 113, Pirque, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro de Salud Familiar José Alvo',
+    address: 'Bacteriológico 10817, La Florida, Región Metropolitana')
+    
+Centre.create(
+    name: 'Posta de Salud Rural Las Vertientes',
+    address: 'Parque Municipal 2786, San José de Maipo, Región Metropolitana')
+    
+Centre.create(
+    name: 'Posta de Salud Rural Las Perdices',
+    address: 'El Panul 6706, La Florida, Región Metropolitana')
+    
+Centre.create(
+    name: 'Posta de Salud Rural San Gabriel',
+    address: 'Los Rodados 41687, San José de Maipo, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familiar Modelo',
+    address: 'Alvear 6543, San Ramón, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familiar San Gregorio',
+    address: 'Angol 8363, La Granja, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Dr. Alejandro del Río',
+    address: 'Gandarillas 105, Puente Alto, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Dr. Alejandro del Río',
+    address: 'Gandarillas 105, Puente Alto, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Los Castaños',
+    address: 'Diagonal Los Castaños 5820, La Florida, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Villa OHiggins',
+    address: 'Santa Julia 870, La Florida, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Los Quillayes',
+    address: 'Julio César 10905, La Florida, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU La Granja',
+    address: 'San Gregorio 28, La Granja, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU La Bandera',
+    address: 'Vicuña Mackenna 1758, San Ramón, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU San Rafael',
+    address: 'Porto Alegre 12577, La Pintana, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Pablo de Rokha',
+    address: 'Pedro Prado 12221, La Pintana, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Santiago de Nueva Extremadura',
+    address: 'Juanita 13558, La Pintana, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU San Gerónimo',
+    address: 'San Pedro 1203, Puente Alto, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU San Ramón',
+    address: 'Uruguay 1760, San Ramón, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Dr. Fernando Maffioletti',
+    address: 'Central 301, La Florida, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Santo Tomás',
+    address: 'Santo Tomás 987, La Pintana, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU El Roble',
+    address: 'Observatorio 1777, La Pintana, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Bernardo Leighton',
+    address: 'Miguel Ángel 1929, Puente Alto, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Cardenal Silva Henríquez de Puente Alto',
+    address: 'Estación El Canelo 3345, Puente Alto, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAR Padre Manuel Villaseca',
+    address: 'Luis Matte Larraín 2312, Puente Alto, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Santa Amalia',
+    address: 'Santa Amalia 202, La Florida, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Granja Sur',
+    address: 'Sofía Eastman 10036, La Granja, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Karol Wojtyla',
+    address: 'Curaco de Vélez 4110, Puente Alto, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Poetisa Gabriela Mistral',
+    address: 'Aurora de Chile 9872, San Ramón, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU La Florida',
+    address: 'La Florida 6015, La Florida, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Santa Laura',
+    address: 'Picton 1050, El Bosque, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU San Joaquín',
+    address: 'Francisca de Rimini 3223, San Joaquín, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familiar Elena Caffarena',
+    address: 'Marín 520, Providencia, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Libertadores',
+    address: 'San Pedro de Atacama 1925, Huechuraba, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Trinidad',
+    address: 'Uno 10021, La Florida, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Luis Chavarría',
+    address: 'Sado 7965, Cerro Navia, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Dr. Alberto Allende Jones',
+    address: 'Esmeralda 2049, Talagante, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Dr. Arturo Albertz',
+    address: 'Las Torres 1204, Cerro Navia, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Dr. Avendaño',
+    address: 'Teniente Cruz 1087, Lo Prado, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Dr. Fernando Monckeberg',
+    address: 'Concepcion 73, Peñaflor, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Dr. Francisco Boris Soler',
+    address: 'Silva Chávez 1650, Melipilla, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Dr. Gustavo Molina',
+    address: 'Laguna Sur 8759, Pudahuel, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAR Dr. Raúl Yazigi',
+    address: 'Caleta Iquique 214, Lo Prado, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Garín',
+    address: 'Janequeo 5612, Quinta Normal, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Isla de Maipo',
+    address: 'Manuel Rodríguez 1001, Isla de Maipo, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Lo Franco',
+    address: 'Carrascal 4459, Quinta Normal, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Pablo Neruda',
+    address: 'Dorsal 6741, Lo Prado, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Peñaflor',
+    address: 'Costa Rica 1000, Peñaflor, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Violeta Parra',
+    address: 'La Travesía 7447, Pudahuel, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU María Pinto',
+    address: 'Francisco Costabal 78, Maria Pinto, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Bicentenario',
+    address: 'Brasil 8005, Renca, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Dr. Adalberto Steeger',
+    address: 'Huelén 1629, Cerro Navia, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Dr. Edelberto Elgueta',
+    address: 'Arza 1576, Melipilla, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU El Monte',
+    address: 'Los Libertadores 531, El Monte, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Huamachuco',
+    address: 'Las Margaritas 2466, Renca, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAR La Estrella',
+    address: 'El Lazo 8631, Pudahuel, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Pudahuel Poniente',
+    address: 'San Pablo 9152, Pudahuel, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Santa Anita',
+    address: 'Camino de Loyola 5302, Lo Prado, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Dr. Iván Insunza',
+    address: 'Mar de Chile 491, Maipu, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU Aguilucho',
+    address: 'El Aguilucho 3235, Providencia, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAPU José Alvo',
+    address: 'Bacteriológico 10817, La Florida, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro de Especialidades Odontológicas Leng',
+    address: 'Eliodoro Yáñez 1261, Providencia, Región Metropolitana')
+    
+Centre.create(
+    name: 'SAR Enfermera Sofía Pincheira',
+    address: 'Las Torres 7590, Cerrillos, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familiar Coñimo',
+    address: 'Catruman 275, San Joaquín, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familiar Villa Olímpica',
+    address: 'Salvador 1350, Ñuñoa, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familiar Andacollo',
+    address: 'Andacollo 1661, Providencia, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familiar Beato Padre Hurtado',
+    address: 'Parroquia Nuestra Señora del Carmen 551, Quilicura, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familia Martin Henríquez',
+    address: 'Martin Henríquez 4537, San Joaquín, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familiar Salud Plaza México',
+    address: 'Huérfanos 4490, Quinta Normal, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familiar Buzeta',
+    address: 'Carlos Valdovinos 3955, Cerrillos, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familiar Alberto Bachelet',
+    address: 'Cunaco 1424, Conchalí, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familiar Eduardo Frei Montalva',
+    address: 'Victoria 8396, La Cisterna, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familiar Atacama',
+    address: 'Segunda Avenida 1462, San Miguel, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familiar Dr. Raúl Brañes',
+    address: 'Carlos Condell 1789, San Bernardo, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familiar San Vicente de Naltagua',
+    address: 'San Antonio de Naltagua 7603, Isla de Maipo, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familiar Amapolas',
+    address: 'Amapolas 4899, Ñuñoa, Región Metropolitana')
+    
+Centre.create(
+    name: 'Centro Comunitario de Salud Familiar Las Lomas',
+    address: 'Jardin Alto 9057, La Florida, Región Metropolitana')
 
+
+
+    #PrEP
+Centre.create(
+    name: 'Hospital Barros Lucos',
+    address: 'Jose Miguel Carrera 3204, San Miguel, Región Metropolitana',
+    kind: 'prep')
+    
+Centre.create(
+    name: 'Hospital San Juan de Dios',
+    address: 'Huérfanos 3255, Santiago, Región Metropolitana',
+    kind: 'prep')
+    
+Centre.create(
+    name: 'Hospital El Carmen',
+    address: 'Camino A Rinconada 1201, Maipú, Región Metropolitana',
+    kind: 'prep')
+    
+Centre.create(
+    name: 'CRS Cordillera Norte',
+    address: 'Las Torres 5100, Peñalolén, Región Metropolitana',
+    kind: 'prep')
+    
+Centre.create(
+    name: 'Hospital Padre Hurtado',
+    address: 'Esperanza 2150, San Ramón, Región Metropolitana',
+    kind: 'prep')
+    
+Centre.create(
+    name: 'Hospital San José',
+    address: 'San José 1196, Independencia, Región Metropolitana',
+    kind: 'prep')
+
+    
+    
+
+
+    
