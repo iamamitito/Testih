@@ -21,6 +21,9 @@
   <body>
     <%= render 'shared/navbar' %>
     <%= render 'shared/sidebar' %>
+    <% if user_signed_in? %>
+    <%= render 'shared/alerts' %>
+    <% end %>
     <%= yield %>
     <% if user_signed_in? %>
     <%= render 'shared/footer' %>

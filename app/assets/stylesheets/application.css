@@ -40,6 +40,10 @@
 
 .nav_button {
     color: rgb(54, 54, 54);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.nav_button:hover{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .all_buttons {
@@ -89,6 +93,9 @@ body {
 .sidebar_link {
     font-size: 20px !important;
 }
+.sidebar_link:hover {
+    box-shadow: 0 6px 10px rgba(0,0,0,0.25), 0 6px 10px rgba(0,0,0,0.25);
+}
 
 .sidebar a:hover {
     color: rgb(86, 191, 233);
@@ -127,7 +134,7 @@ body {
 .welcoming {
     background-color: rgb(255, 251, 251);
     width: 65%;
-    opacity: 0.85;
+    opacity: 0.9;
 }
 
 .app-body {
@@ -135,8 +142,12 @@ body {
     border: none;
 }
 
+.app-body:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
 .session-box {
-    opacity: 0.85;
+    opacity: 0.9;
 }
 
 .map-content {
@@ -145,6 +156,12 @@ body {
     position: fixed;
     background: #eee;
     padding: 0;
+}
+
+.app-test {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
+    padding-top:2%;
+    padding-bottom:2%;
 }
 
 .myhome {
@@ -168,4 +185,23 @@ footer {
 }
 .home-icons:hover{
     color: rgb(86, 191, 233);
+}
+
+.alerts {
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    background-size: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.welcoming-btn {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.welcoming-btn:hover {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.test-form {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
+    max-width: 35%;
 }
