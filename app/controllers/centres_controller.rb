@@ -22,4 +22,13 @@ class CentresController < ApplicationController
     end
   end
 
+  def create
+    centre = Centre.create(centre_params)
+  end
+
+  private
+  def centre_params
+        params.require(:centre).permit(:name, :address, :latitude, :longitude, :kind)
+  end
+
 end

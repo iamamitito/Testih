@@ -1,0 +1,7 @@
+<% my_chart = User.group_by_day(:created_at).count %>
+<%= column_chart my_chart %>
+
+<% my_chart = Centre.group_by_day(:created_at).count %>
+<%= column_chart my_chart %>
+
+<%= pie_chart Centre.group(:name).count %>
