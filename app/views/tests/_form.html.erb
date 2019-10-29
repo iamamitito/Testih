@@ -1,21 +1,21 @@
 <div class='container'>
-<%= form_with(model: test) do |form| %>
-  <% if test.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(test.errors.count, "error") %> prohibited this test from being saved:</h2>
+  <%= form_with(model: test) do |form| %>
+    <% if test.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(test.errors.count, "error") %> prohibited this test from being saved:</h2>
 
-      <ul>
-        <% test.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
-        <% end %>
-      </ul>
+        <ul>
+          <% test.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div class="form-group">
+      <%= form.label :date %>
+      <%= form.date_select :date %>
+      <%= form.submit class: 'btn all_buttons btn-warning', value: "Crear" %>
     </div>
-  <% end %>
-
-  <div class="form-group">
-   <%= form.label :date %>
-   <%= form.date_select :date %>
-   <%= form.submit class: 'btn all_buttons btn-warning', value: "Crear" %>
-  </div>
-<% end %>
+    <% end %>
 </div>
