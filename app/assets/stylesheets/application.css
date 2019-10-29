@@ -80,6 +80,7 @@ body {
     transition: 0.5s;
     padding-top: 60px;
     opacity: 0.99;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .sidebar a {
