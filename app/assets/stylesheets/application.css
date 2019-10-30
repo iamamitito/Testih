@@ -151,7 +151,7 @@ body {
 
 .map-content {
     width: 100%;
-    height: 91.5%;
+    height: 92%;
     position: fixed;
     background: #eee;
     padding: 0;
@@ -189,9 +189,9 @@ footer {
 
 .myAlert-top{
     position: fixed;
-    top: 5px; 
-    left:10%;
-    width: 80%;
+    top: 5px;
+    left:5%; 
+    width: 90%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);  
 }
 
