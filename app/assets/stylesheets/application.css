@@ -18,7 +18,7 @@
     min-height: 100%;
 }
 .nav-icon {
-    color: rgb(86, 191, 233);
+    color: rgb(56, 161, 221);
 }
 .navbar_color {
     background-color: rgb(255, 255, 255);
@@ -97,7 +97,7 @@ body {
 }
 
 .sidebar a:hover {
-    color: rgb(86, 191, 233);
+    color: rgb(56, 161, 221);
 }
 
 .sidebar .closebtn {
@@ -184,7 +184,7 @@ footer {
     overflow: hidden;
 }
 .home-icons:hover{
-    color: rgb(86, 191, 233);
+    color: rgb(56, 161, 221);
 }
 
 .myAlert-top{
