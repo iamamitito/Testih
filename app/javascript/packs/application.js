@@ -10,6 +10,7 @@ require("channels")
 require("jquery/src/jquery")
 require("chartkick")
 require("chart.js")
+require("search")
 
 
 

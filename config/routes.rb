@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'centres/index'
   get 'home/home_index'
   get 'home/references'
+  get 'centres/list'
   resources :tests
   devise_for :users, controllers: { 
     omniauth_callbacks: 'users/omniauth_callbacks'

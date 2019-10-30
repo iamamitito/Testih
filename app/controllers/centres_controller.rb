@@ -22,6 +22,11 @@ class CentresController < ApplicationController
     end
   end
 
+  def list
+    @centres = Centre.all
+    @centres = @centres.where("address like ?",  "%#{params[:q]}%") if params[:q]
+  end
+
   def create
     centre = Centre.create(centre_params)
   end

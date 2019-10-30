@@ -3,8 +3,9 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
   <i class="fas fa-street-view nav-icon fa-3x ml-4 mb-4">!</i>
   <%= link_to 'Home', root_path, class:"sidebar_link" %> 
-  <%=link_to 'Centros', centres_index_path, class:"sidebar_link" %>
+  <%=link_to 'Mapa de Centros', centres_index_path, class:"sidebar_link" %>
   <%= link_to "Mis Tests", tests_path, class:"sidebar_link" %>
+  <%=link_to 'Lista de Centros', centres_list_path, class:"sidebar_link" %>
   <%= link_to "Referencias", home_references_path, class:"sidebar_link" %>
   <%= link_to "Salir", destroy_user_session_path, method: :delete, class:"sidebar_link" %>
 </div>
