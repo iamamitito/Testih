@@ -6,12 +6,15 @@ También es posible guardar un registro de los tests del usuario.
 
 
 
-## Heroku link
+## Links 
 
 ```
 https://frozen-journey-63522.herokuapp.com/
 ```
 
+```
+https://trello.com/b/Cm8AngXI/finalproject
+```
 
 ### Requisitos
 
@@ -19,10 +22,12 @@ https://frozen-journey-63522.herokuapp.com/
 
 * Rails version 6.0.0
 
+* Yarn
 
-## Pasos
+
+
+## Pasos a seguir
 ```
-bundle install
 rails db:migrate
 rails db:seed
 ```
