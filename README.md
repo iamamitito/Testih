@@ -1,6 +1,6 @@
 # Testih
 
-Aplicación que busca ayudar a personas a informarse de centros que ofrezcan examen de VIH y pastica preventiva PrEP gratuitamente.
+Aplicación que busca ayudar a personas a informarse de centros que ofrezcan examen de VIH y pastilla preventiva PrEP gratuitamente.
 
 También es posible guardar un registro de los tests del usuario.
 
