@@ -16,7 +16,7 @@ https://frozen-journey-63522.herokuapp.com/
 https://trello.com/b/Cm8AngXI/finalproject
 ```
 
-### Requisitos
+## Requisitos
 
 * Ruby version 2.6.3
 
