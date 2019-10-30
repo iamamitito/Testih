@@ -5,9 +5,64 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
+User.destroy_all
 Centre.destroy_all
+AdminUser.destroy_all
 
+User.create(
+    name: 'John',
+    email:'john@gmail.com',
+    password: '123456')
+
+User.create(
+    name: 'Jane',
+    email:'jane@gmail.com',
+    password: '123456')
+
+User.create(
+    name: 'Robert',
+    email:'robert@gmail.com',
+    password: '123456')
+
+User.create(
+    name: 'Patrick',
+    email:'patrick@gmail.com',
+    password: '123456')
+
+User.create(
+    name: 'Anita',
+    email:'anita@gmail.com',
+    password: '123456')
+
+Test.create!(
+    date:'2018-11-15',
+    user: User.order('RANDOM()').first
+    )
+
+Test.create!(
+    date:'2019-02-20',
+    user: User.order('RANDOM()').first
+    )
+
+Test.create!(
+    date:'2018-08-23',
+    user: User.order('RANDOM()').first
+    )
+
+Test.create!(
+    date:'2019-04-23',
+    user: User.order('RANDOM()').first
+    )
+
+Test.create!(
+    date:'2017-01-23',
+    user: User.order('RANDOM()').first
+    )
+
+Test.create!(
+    date:'2019-04-10',
+    user: User.order('RANDOM()').first
+    )
 
 Centre.create(
      name: 'Hospital de Til Til',

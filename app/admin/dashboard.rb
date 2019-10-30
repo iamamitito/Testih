@@ -9,9 +9,41 @@ ActiveAdmin.register_page "Dashboard" do
       end
     end
 
-    panel "Gráficos" do
-      render 'shared/chart'
-    end
+    columns do
+      column do
+        panel "Nº de Usuarios" do
+          ul do
+            User.count
+          end
+        end
+      end
+     end
+
+     columns do
+      column do
+        panel "Nº de Centros" do
+          ul do
+            Centre.count
+          end
+        end
+      end
+     end
+     
+     columns do
+      column do
+        panel "Nº de tests" do
+          ul do
+            Test.count
+          end
+        end
+      end
+      column do 
+        panel "Tests" do
+          render 'shared/chart'
+        end
+      end
+     end
+    
 
     # Here is an example of a simple dashboard with columns and panels.
     #
