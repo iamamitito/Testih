@@ -13,7 +13,7 @@ https://frozen-journey-63522.herokuapp.com/
 ```
 
 ```
-https://trello.com/b/Cm8AngXI/finalproject
+https://trello.com/b/Cm8AngXI/testih
 ```
 
 ## Requisitos
