@@ -21,8 +21,17 @@
   <body>
     <%= render 'shared/navbar' %>
     <%= render 'shared/sidebar' %>
-    <% if user_signed_in? %>
-    <%= render 'shared/alerts' %>
+    <% if alert.present? %>
+      <div class="myAlert-top alert fade show alert-danger">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <%= alert %>
+      </div>
+    <% end %>
+    <% if notice.present? %>
+    <div class="myAlert-top alert fade show alert-success">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <%= notice %>
+    </div>
     <% end %>
     <%= yield %>
     <% if user_signed_in? %>
@@ -30,4 +39,5 @@
     <% end %>
   </body>
 </html>
+
 

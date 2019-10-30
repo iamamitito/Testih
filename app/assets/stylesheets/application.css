@@ -12,13 +12,11 @@
  *
  *= require_tree .
  *= require_self
- */
+ */ 
  html {
     position: relative;
     min-height: 100%;
 }
-
-
 .nav-icon {
     color: rgb(86, 191, 233);
 }
@@ -153,7 +151,7 @@ body {
 
 .map-content {
     width: 100%;
-    height: 90%;
+    height: 91.5%;
     position: fixed;
     background: #eee;
     padding: 0;
@@ -163,6 +161,7 @@ body {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
     padding-top:2%;
     padding-bottom:2%;
+    margin-bottom: 10%;
 }
 
 .myhome {
@@ -171,7 +170,7 @@ body {
     background-size: 100%;
     height: 100%;
     padding-top: 1%;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
 }
 
 footer {
@@ -180,7 +179,7 @@ footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 210px;
+    height: 220px;
     width: 100%;
     overflow: hidden;
 }
@@ -188,12 +187,12 @@ footer {
     color: rgb(86, 191, 233);
 }
 
-.alerts {
-    background-color: hsl(0, 0%, 100%);
-    position: relative;
-    background-size: 100%;
-    margin: 0;
-    text-align: center;
+.myAlert-top{
+    position: fixed;
+    top: 5px; 
+    left:10%;
+    width: 80%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);  
 }
 
 .welcoming-btn {
@@ -204,5 +203,12 @@ footer {
 }
 .test-form {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
-    max-width: 35%;
+    max-width: 50%;
+}
+.fb-btn {
+    background-color: rgb(89, 136, 238);
+    color: white;
+}
+.fb-btn:hover {
+    color: white;
 }
