@@ -1,24 +1,29 @@
-# README
+# Testih
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Aplicación que busca ayudar a personas a informarse de centros que ofrezcan examen de VIH y pastica preventiva PrEP gratuitamente.
 
-Things you may want to cover:
+También es posible guardar un registro de los tests del usuario.
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+## Heroku link
 
-* Database creation
+```
+https://frozen-journey-63522.herokuapp.com/
+```
 
-* Database initialization
 
-* How to run the test suite
+### Requisitos
 
-* Services (job queues, cache servers, search engines, etc.)
+* Ruby version 2.6.3
 
-* Deployment instructions
+* Rails version 6.0.0
 
-* ...
+
+## Pasos
+```
+bundle install
+rails db:migrate
+rails db:seed
+```
+
