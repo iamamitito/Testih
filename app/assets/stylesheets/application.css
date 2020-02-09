@@ -18,10 +18,10 @@
     min-height: 100%;
 }
 .nav-icon {
-    color: rgb(247, 86, 108);
+    color: rgb(13, 132, 187);
 }
 .navbar_color {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(5, 39, 54);
     opacity: 0.99;
 }
 
@@ -37,11 +37,12 @@
 }
 
 .nav_button {
-    color: rgb(54, 54, 54);
+    color: yellowgreen;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .nav_button:hover{
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    color: yellow;
 }
 
 .all_buttons {
@@ -54,6 +55,8 @@
 
 body {
     font-family: 'Tajawal', sans-serif;
+    background-color: rgb(5, 39, 54);
+    color:yellowgreen;
 }
 
 .menu p, h2 {
@@ -67,11 +70,10 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(5, 39, 54);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    opacity: 0.99;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
@@ -79,7 +81,7 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: rgb(54, 54, 54);
+    color: yellowgreen;
     display: block;
     transition: 0.3s;
 }
@@ -91,7 +93,7 @@ body {
 }
 
 .sidebar a:hover {
-    color: rgb(247, 86, 108);
+    color: rgb(13, 132, 187);
 }
 
 .sidebar .closebtn {
@@ -107,7 +109,7 @@ body {
     font-size: 35px;
     cursor: pointer;
     background-color: Transparent;
-    color: rgb(54, 54, 54);
+    color: yellowgreen;
     border: none;
     border-radius: 40%;
     padding: 0%;
@@ -119,25 +121,38 @@ body {
     transition: margin-left .2s;
 }
 .welcoming p {
-    color: rgb(54, 54, 54);
+    color: yellowgreen;
 }
 .welcoming {
-    background-color: rgb(255, 251, 251);
+    background-color: rgb(5, 39, 54);
     width: 65%;
     opacity: 0.9;
+}
+.welcoming-btn {
+    color: rgb(5, 39, 54);
+    background-color: yellowgreen;
+
+}
+.welcoming-btn:hover {
+    color: rgb(255, 255, 255);
 }
 .card {
     text-align: center;
     border: none;
+    margin: 10px;
+    background-color: rgb(5, 39, 54);
+    color: yellowgreen;
+    box-shadow:  0 7px 7px rgba(0,0,0,0.22);
 }
 
 
 .card a:hover {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 27px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
 
-.session-box {
+.session-card {
     opacity: 0.9;
+    text-align: center;
 }
 
 .map-content {
@@ -154,19 +169,25 @@ body {
     padding-bottom:2%;
     margin-bottom: 10%;
 }
+.app-test table {
+    color: yellowgreen;
+}
 
 .myhome {
-    background-color: hsl(0, 0%, 100%);
+    background-color: rgb(5, 39, 54);
     position: relative;
     background-size: 100%;
     height: 100%;
     padding-top: 1%;
     padding-bottom: 15%;
 }
+.myhome h2, p {
+    color: yellowgreen;
 
+}
 footer {
-    background-color: rgb(255, 255, 255);
-    color: rgb(54, 54, 54);
+    background-color: rgb(5, 39, 54);
+    color: rgb(13, 132, 187);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -180,7 +201,7 @@ footer h5 {
     padding: 10px;
 }
 .home-icons:hover{
-    color: rgb(247, 86, 108);
+    color: rgb(13, 132, 187);
 }
 
 .myAlert-top{
@@ -209,14 +230,18 @@ footer h5 {
     color: white;
 }
 .table-centres {
-    background-color: white;
+    background-color: rgb(5, 39, 54);
     opacity: 0.9;
 }
+
+.table-centres table {
+    color: yellowgreen;
+}
 .search {
-    background-color: white;
+    background-color: rgb(5, 39, 54);
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     padding: 2%;
-    max-width: 45%;
+    width: 200px;
     float: right;
 }
 .references {
@@ -227,7 +252,7 @@ footer h5 {
     padding-top: 20px;
 }
 .map-content {
-    background-color: white;
+    background-color: rgb(5, 39, 54);
 }
 
 @media screen and (max-height: 450px) {

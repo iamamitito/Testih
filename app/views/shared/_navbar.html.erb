@@ -5,9 +5,10 @@
 			</div> 
   				<div class="navbar ml-auto" id="navbarColor01">
 					<ul class="navbar-nav">
-	        	<li></li>
+				  <li class="nav-item mr-2"><%= link_to 'Cerrar Sesión',destroy_user_session_path, method: :delete, class:"btn all_buttons nav_button" %></li>
 	        <% else %>
-			<nav class="navbar navbar-expand-lg text-white navbar_color">  
+			<nav class="navbar navbar-expand-lg text-white navbar_color">
+			  <a href="<%=root_path %>"><i class="fas fa-street-view nav-icon fa-2x">!</i></a> 
   				<div class="navbar ml-auto" id="navbarColor01">
 					<ul class="navbar-nav">
 						<li class="nav-item mr-2"><%= link_to 'Iniciar Sesión', new_user_session_path, class:"btn all_buttons nav_button" %></li>
