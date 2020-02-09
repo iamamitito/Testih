@@ -18,7 +18,7 @@
     min-height: 100%;
 }
 .nav-icon {
-    color: rgb(56, 161, 221);
+    color: rgb(247, 86, 108);
 }
 .navbar_color {
     background-color: rgb(255, 255, 255);
@@ -91,7 +91,7 @@ body {
 }
 
 .sidebar a:hover {
-    color: rgb(56, 161, 221);
+    color: rgb(247, 86, 108);
 }
 
 .sidebar .closebtn {
@@ -126,13 +126,13 @@ body {
     width: 65%;
     opacity: 0.9;
 }
-
-.app-body {
-    background-color: rgb(255, 255, 255);
+.card {
+    text-align: center;
     border: none;
 }
 
-.app-body:hover {
+
+.card a:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
 
@@ -180,7 +180,7 @@ footer h5 {
     padding: 10px;
 }
 .home-icons:hover{
-    color: rgb(56, 161, 221);
+    color: rgb(247, 86, 108);
 }
 
 .myAlert-top{
