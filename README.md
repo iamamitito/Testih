@@ -9,7 +9,7 @@ También es posible guardar un registro de los tests del usuario.
 ## Links 
 
 ```
-https://frozen-journey-63522.herokuapp.com/
+https://testih.herokuapp.com/
 ```
 
 ```
@@ -24,11 +24,4 @@ https://trello.com/b/Cm8AngXI/testih
 
 * Yarn
 
-
-
-## Pasos a seguir
-```
-rails db:migrate
-rails db:seed
-```
 
